@@ -8,7 +8,7 @@ public class SwitchRey {
     }
 
     public static int noOfDays(int month, int year) {
-        int days;
+        int days = 0;
         switch (month) {
             case 1:
             case 3:
@@ -42,7 +42,12 @@ public class SwitchRey {
     }
 
     public static boolean isLeapYear(int year) {
-        return ((year % 4 == 0) && !(year % 100 == 0)) || (year % 400 == 0);
+        if (((year % 4 == 0) && !(year % 100 == 0)) || (year % 400 == 0)) {
+            return true;
+        } else {
+            return false;
+        }
 
     }
 }
+
