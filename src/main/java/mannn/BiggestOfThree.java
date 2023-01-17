@@ -10,7 +10,7 @@ public class BiggestOfThree {
 
         Scanner num1 = new Scanner(System.in);
         System.out.println("Enter the number 1");
-        int number1;
+        int number1 = 0;
 
         Scanner num2 = new Scanner(System.in);
         System.out.println("Enter the number 2");
